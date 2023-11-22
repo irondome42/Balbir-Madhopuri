@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>Balbir Madhopuri</title>
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link rel="stylesheet" href="css/plugins.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144098545-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-144098545-1');
+    </script>
+</head>
+<SCRIPT LANGUAGE="JavaScript">
+var message="You Are Not Authorized to Access this Area";
+///////////////////////////////////
+function clickIE() {if (document.all) {alert(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {alert(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+
+document.oncontextmenu=new Function("return false")
+// --> 
+</script>
+
+<script>
+    // disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    document.onkeydown = function (e) {
+
+        // disable F12 key
+        if(e.keyCode == 123) {
+            return false;
+        }
+
+        // disable I key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+            return false;
+        }
+
+        // disable J key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+            return false;
+        }
+
+        // disable U key
+        if(e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+    }
+
+</script>
+<body>
+	<!-- Preloader -->
+	<div class="preloader-bg"></div>
+	<div id="preloader">
+		<div id="preloader-status">
+			<div class="preloader-position loader"> <span></span> </div>
+		</div>
+	</div>
+	<!-- Progress scroll totop -->
+	<div class="progress-wrap cursor-pointer">
+		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+		</svg>
+	</div>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<!-- Logo -->
+			<a class="logo" href="index.html"> <img src="img/logo-light.png" alt=""> </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span> </button>
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link active" href="Latest Post.html">Latest Posts</a></li>
+					<li class="nav-item"><a class="nav-link" href="Reviews.html">Reviews</a></li>
+					<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="In The News.html">In THe News</a></li>
+					<li class="nav-item"><a class="nav-link" href="Research Papers.html">Research Papers</a></li>
+					<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Header Banner -->
+	<div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="img/slider/04.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text-left caption mt-90">
+					<h5 class="animate-box" data-animate-effect="fadeInUp"><a href="index.html">Home</a></h5>
+					<h1 class="animate-box" data-animate-effect="fadeInUp">Latest Posts</h1>
+					<hr class="animate-box" data-animate-effect="fadeInUp">
+					<p class="animate-box" data-animate-effect="fadeInUp"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- hr -->
+	<hr class="line-vr-section animate-box" data-animate-effect="fadeInUp">
+	<!-- Portfolio -->
+	<div class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="project-container col-md-4">
+					<a href="Books presented to each other by Prof. Harpreet Kaur and Balbir Madhopuri.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/01.jpg" alt="" />
+							<div class="overlay">
+								<div class="project-texts">
+									<h5>Books presented to each other by Prof. Harpreet Kaur and Balbir Madhopuri</h5>
+									<div class="line"></div>
+									<p>By Balbir Madhopuri</p>
+								</div>
+							</div>
+							</div>
+					</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Chhangiya Rukh (Against the Night) being translated into Polish.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/02.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Chhangiya Rukh (Against the Night) being translated into Polish</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+							</div>
+							</div>
+							</div>
+					</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Balbir Madhopuri and Dr. Manmohan.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/03.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Balbir Madhopuri and Dr. Manmohan</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+							</div>
+							</div>
+							</div>
+					</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Black Kaav and Hindi Dalit Kaav released.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/04.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Black Kaav and Hindi Dalit Kaav released</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+							</div>
+							</div>
+							</div>
+					</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Chhangiya Rukh (autobiography), Chapters published in Journal of RAS, issue no.3-4, 2020 released in Moscow.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/05.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Chhangiya Rukh (autobiography), Chapters published in Journal of RAS, issue no.3-4, 2020 released in Moscow</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+							</div>
+							</div>
+							</div>
+					</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Balbir Madhopuri's Poetry now in English.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/06.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Balbir Madhopuri's Poetry now in English</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+							</div>
+							</div>
+							</div>
+					</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Mitti Bol Peye (Novel) by Balbir Madhopuri Released on his Birthday 24 July.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/07.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Mitti Bol Peye (Novel) by Balbir Madhopuri Released on his Birthday 24 July</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+							</div>
+							</div>
+							</div>
+					</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="PROF. ANNA BOCHKOVSKAYA  BIO NOTE.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/08.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Prof. Anna Bochkovskaya  Bio Note</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+							</div>
+							</div>
+							</div>
+					</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Indian Expres (892019) Sunday, in all editions (Opinion).html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/09.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Indian Expres (892019) Sunday, in all editions (Opinion)</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+							</div>
+							</div>
+							</div>
+					</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Adi-Dharam Movement and Punjabi Dalit Literature.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/16.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Adi-Dharam Movement and Punjabi Dalit Literature</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>
+
+				</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="In The News.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/17.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>In The News</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>
+
+				</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Interviews.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/18.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Interviews</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>	
+
+				</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Awards.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/19.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Awards</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>
+				</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Balancing Emotion with Reason Madhopuri’s Poetry.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/09.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Balancing Emotion with Reason Madhopuri’s Poetry</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>
+				</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Review by Prof. Harpreet Kaur, Principal, Mata Sundri College for Women, University of Delhi.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/09.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Review by Prof. Harpreet Kaur, Principal, Mata Sundri College for Women, University of Delhi</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>	
+				</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Balbir Madhopuri Bio-Data.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/biodata.png" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Balbir Madhopuri Bio-Data</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>
+				</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Balbir Madhopuri Bio-Data in English.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/09.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Balbir Madhopuri Bio-Data in English</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>		
+				</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Interview with Balbir Madhopuri by Dr. Anne Murphy.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/annie.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Interview with Balbir Madhopuri by Dr. Anne Murphy</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>	
+				</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Balbir Madhopuri's Mitti Bol Peye (Novel) Won Dhahan Prize-2021.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/dhahan.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Balbir Madhopuri's Mitti Bol Peye (Novel) Won Dhahan Prize-2021</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>
+								</a>
+				</div>
+				<div class="project-container col-md-4">
+					<a href="Punjabi Novel on Dalit Resistance Movement gets International Attention.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/mitti.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Punjabi Novel on Dalit Resistance Movement gets International Attention</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>
+								
+				</div>
+				<div class="project-container col-md-4">
+					<a href="DHAHAN PUNJABI LITERATURE AND LEACTURE IN CANADA - 2022.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/1.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>DHAHAN PUNJABI LITERATURE AND LEACTURE IN CANADA - 2022</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>				
+
+			</div>
+			<div class="project-container col-md-4">
+					<a href="The Tales of the Cracked Mirror.html">
+						<div class="project-zoomer"> 
+							<img src="img/tales/0001.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>The Tales of the Cracked Mirror</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>
+		</div>
+		</div>
+			<div class="project-container col-md-4">
+					<a href="A Lopped (Chhangiya) man of Varna Dharma Balbir Madhopuri- An article by Dr. Gurmail Singh.html">
+						<div class="project-zoomer"> 
+							<img src="img/parkh/0001.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>A Lopped (Chhangiya) man of Varna Dharma Balbir Madhopuri- An article by Dr. Gurmail Singh</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>	
+		
+		</div>
+	<div class="project-container col-md-4">
+					<a href="Two Chapters from Chhangiya Rukh in Russian by Dr. Anna Bochkovskaya.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/chapter.png" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Two Chapters from Chhangiya Rukh in Russian by Dr. Anna Bochkovskaya</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>
+
+		</div>
+	<div class="project-container col-md-4">
+					<a href="Three Poems in Syllabus.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/syllabus.png" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Three Poems in Syllabus</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>		
+
+		</div>
+	<div class="project-container col-md-4">
+					<a href="Reviews in Hindi about Chhangiya Rukh.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/review.png" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Reviews in Hindi about Chhangiya Rukh</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>	
+	</div>
+	<div class="project-container col-md-4">
+					<a href="our new efforts.html">
+						<div class="project-zoomer"> 
+							<img src="img/portfolio/777.jpg" alt="" />
+							<div class="overlay">
+							<div class="project-texts">
+								<h5>Our New Efforts</h5>
+								<div class="line"></div>
+								<p>By Balbir Madhopuri</p>
+								</div>
+								</div>
+								</div>												
+													
+	</div>							
+	<!-- hr -->
+	<hr class="line-vr-section animate-box" data-animate-effect="fadeInUp">
+	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Clients -->
+	<div class="clients">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 owl-carousel owl-theme">
+					<div class="clients-logo">
+						<a href="#0"><img src="img/clients/1.png" alt=""></a>
+					</div>
+					<div class="clients-logo">
+						<a href="#0"><img src="img/clients/2.png" alt=""></a>
+					</div>
+					<div class="clients-logo">
+						<a href="#0"><img src="img/clients/3.png" alt=""></a>
+					</div>
+					<div class="clients-logo">
+						<a href="#0"><img src="img/clients/4.png" alt=""></a>
+					</div>
+					<div class="clients-logo">
+						<a href="#0"><img src="img/clients/5.png" alt=""></a>
+					</div>
+					<div class="clients-logo">
+						<a href="#0"><img src="img/clients/6.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="main-footer dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 mb-30">
+					<div class="item abot">
+						<div class="logo mb-20"> <img src="img/logo-light.png" alt=""> </div>
+						<p><h4>Follow Us On</h4></p>
+						<div class="social-icon"> <a href="https://www.facebook.com/balbir.madhopuri/" target="_blank"><i class="ti-facebook"></i></a> <a href="https://twitter.com/BMadhopuri" target="_blank"><i class="ti-twitter"></i></a> <a href="https://www.youtube.com/user/balbir93/videos" target="_blank"><i class="ti-youtube"></i></a>  </div>
+					</div>
+				</div>
+				<div class="col-md-2 offset-md-1 mb-30">
+					<div class="item usful-links">
+						<div class="fothead">
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-3 mb-30">
+					<div class="item fotcont">
+						<div class="fothead">
+							<h6>Get in touch</h6>
+						</div>
+						<p>+91-09350548100</p>
+						<p>madhopurihk@gmail.com</p>
+						<p>bmadhopuri@yahoo.in</p>
+					</div>
+				</div>
+				<div class="col-md-3 mb-30">
+					<div class="item fotcont">
+						<div class="fothead">
+							<h6>Location</h6>
+						</div>
+						<p>Balbir Madhopuri</p>
+						<p>RZA-44, Mahavir Vihar, Palam,</p>
+						<p>New Delhi-110045 (India)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sub-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="text-left">
+							<p>Copyright ©2021 All Rights Reserved | This Website is Made with Love by <a href="https://www.facebook.com/Manishghn" target="_blank" >Manish Anand</a> </p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="text-right-left">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- jQuery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/jquery-migrate-3.0.0.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scrollIt.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/YouTubePopUp.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
